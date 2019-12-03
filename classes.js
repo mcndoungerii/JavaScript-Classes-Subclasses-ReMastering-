@@ -18,6 +18,10 @@ class User {
         const newName = `My new name is ${this.firstName} ${this.lastName}`;
         return newName;
     }
+
+    static myFullName() {
+        return 'My Full name is Barnes Lars'; 
+    }
 }
 
 const john = new User('John','Anderson',25);
@@ -27,6 +31,9 @@ const john = new User('John','Anderson',25);
 // console.log(john.editName('Allen Mwandunga'));
 john.editName('Allen Mwandunga');
 // console.log(john.getFullName());
+
+//Accessing the static method
+console.log(User.myFullName()); 
 
 
 
