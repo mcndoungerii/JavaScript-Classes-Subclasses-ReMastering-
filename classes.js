@@ -33,7 +33,27 @@ john.editName('Allen Mwandunga');
 // console.log(john.getFullName());
 
 //Accessing the static method
-console.log(User.myFullName()); 
+// console.log(User.myFullName()); 
+
+//Subclasses
+
+class Person extends User {
+    constructor(firstName,lastName,age,education) {
+        super(firstName,lastName,age);
+        this.education = education;
+    }
+
+    getDetails() {
+        const details = `My name is ${this.firstName} ${this.lastName}. I'm ${this.age} years old. I have a bachelor's ${this.education}`
+        return details;
+    }
+}
+
+//Instatiate the class
+const mag = new Person('Juma','Hassan',45,'degree');
+console.log(mag.getDetails());
+
+
 
 
 
