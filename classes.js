@@ -24,7 +24,9 @@ const john = new User('John','Anderson',25);
 // console.log(john.lastName);
 
 // console.log(john.getFullName());
-console.log(john.editName('Allen Mwandunga'));
+// console.log(john.editName('Allen Mwandunga'));
+john.editName('Allen Mwandunga');
+// console.log(john.getFullName());
 
 
 
