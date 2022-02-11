@@ -1,0 +1,22 @@
+{
+  "name": "javascript-classes-subclasses-remastering-",
+  "version": "1.0.0",
+  "description": "Testing JS skills",
+  "main": "classes.js",
+  "scripts": {
+    "test": "node classes.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcndoungerii/JavaScript-Classes-Subclasses-ReMastering-.git"
+  },
+  "author": "Allen J,M",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mcndoungerii/JavaScript-Classes-Subclasses-ReMastering-/issues"
+  },
+  "homepage": "https://github.com/mcndoungerii/JavaScript-Classes-Subclasses-ReMastering-#readme",
+  "dependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
