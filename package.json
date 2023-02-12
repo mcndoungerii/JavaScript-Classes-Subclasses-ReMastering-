@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/mcndoungerii/JavaScript-Classes-Subclasses-ReMastering-#readme",
   "dependencies": {
-    "nodemon": "^2.0.15"
+    "nodemon": "^2.0.20"
   }
 }
